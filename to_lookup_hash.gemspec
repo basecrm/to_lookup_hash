@@ -6,12 +6,12 @@ require 'to_lookup_hash/version'
 Gem::Specification.new do |spec|
   spec.name          = "to_lookup_hash"
   spec.version       = ToLookupHash::VERSION
-  spec.authors       = ["Paweł Obrok"]
-  spec.email         = ["pawel.obrok@gmail.com"]
+  spec.authors       = ["Zendesk"]
+  spec.email         = ["opensource@zendesk.com"]
   spec.description   = %q{Adds methods for converting enumerables to lookup hashes}
   spec.summary       = %q{Adds methods for converting enumerables to lookup hashes}
   spec.homepage      = "https://github.com/basecrm/to_lookup_hash"
-  spec.license       = "MIT"
+  spec.license       = "Apache License Version 2.0"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
